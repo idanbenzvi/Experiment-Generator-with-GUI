@@ -1,0 +1,39 @@
+%  stimuli string, color of stimuli, position,
+classdef stimuli < handle
+    %STIMULI Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties (Hidden)
+       string       
+
+       rposition
+    thetaposition
+    
+    size
+    
+    color
+    
+    end
+    
+    % The following properties can be set only by class methods
+   properties (SetAccess = private)
+%       AccountBalance = 0; 
+   end
+   
+   % Define an event called InsufficientFunds
+   events
+      PTBerror 
+   end
+    
+    properties
+    end
+    
+    methods
+        function displayStimuli
+        end
+        
+        
+    end
+    
+end
+
